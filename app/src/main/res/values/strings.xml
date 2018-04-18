@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">الاربعين النووية</string>
+
+
+    <string name="summarry2">الحديث الاول</string>
+    <string name="summarry3">الحديث الثاني</string>
+    <string name="summarry4">الحديث الثالث</string>
+    <string name="summarry5">الحديث الرابع</string>
+    <string name="summarry6">الحديث الخامس</string>
+    <string name="summarry7">الحديث السادس</string>
+    <string name="summarry8">الحديث السابع</string>
+    <string name="summarry9">الحديث الثامن</string>
+    <string name="summarry10">الحديث التاسع</string>
+    <string name="summarry11">الحديث العاشر</string>
+    <string name="summarry12">الحديث الحادي عشر</string>
+    <string name="summarry13">الحديث الثاني عشر</string>
+    <string name="summarry14">الحديث الثالث عشر</string>
+    <string name="summarry15">الحديث الرابع عشر</string>
+    <string name="summarry16">الحديث الخامس عشر</string>
+    <string name="summarry17">الحديث السادس عشر</string>
+    <string name="summarry18">الحديث السابع عشر</string>
+    <string name="summarry19">الحديث الثامن عشر</string>
+    <string name="summarry20">الحديث التاسع عشر</string>
+
+    <string name="summarry21">الحديث العشرون</string>
+    <string name="summarry22">الحديث الواحد والعشرون</string>
+    <string name="summarry23">الحديث الثاني والعشرون</string>
+    <string name="summarry24">الحديث الثالث والعشرون</string>
+    <string name="summarry25">الحديث الرابع والعشرون</string>
+    <string name="summarry26">الحديث الخامس والعشرون</string>
+    <string name="summarry27">الحديث السادس والعشرون</string>
+    <string name="summarry28">الحديث السابع والعشرون</string>
+    <string name="summarry29">الحديث الثامن والعشرون</string>
+    <string name="summarry30">الحديث التاسع والعشرون</string>
+    <string name="summarry31">الحديث الثلاثون</string>
+    <string name="summarry32">الحديث الواحد والثلاثون</string>
+    <string name="summarry33">الحديث الثاني والثلاثون</string>
+    <string name="summarry34">الحديث الثالث والثلاثون</string>
+    <string name="summarry35">الحديث الرابع والثلاثون</string>
+    <string name="summarry36">الحديث الخامس والثلاثون</string>
+    <string name="summarry37">الحديث السادس والثلاثون</string>
+    <string name="summarry38">الحديث السابع والثلاثون</string>
+    <string name="summarry39">الحديث الثامن والثلاثون</string>
+    <string name="summarry40">الحديث التاسع والثلاثون</string>
+    <string name="summarry41">الحديث الاربعون</string>
+    <string name="summarry42">الحديث الحادي والاربعون</string>
+    <string name="summarry43">الحديث الثاني والاربعون</string>
+
+
+
+
+    <string name="share">شارك التطبيق</string>
+    <string name="rating">تقييم التطبيق</string>
+    <string name="ourApplications">تطبيقات اخرى</string>
+    <string name="content">السلام عليكم ورحمة الله وبركاته , تطبيق حصن المسلم متوفرعلى متجر جوجول بتصميم متريال ديزاين</string>
+    <string name="link">http://google play</string>
+    <string name="search">بحث ...</string>
+    <string name="name_summary">الفهرس</string>
+
+
+</resources>

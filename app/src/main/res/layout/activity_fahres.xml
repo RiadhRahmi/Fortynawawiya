@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context=".activites.FahresActivity">
+
+    <ListView
+        android:id="@+id/listView_fahres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize"
+        />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/multiple_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="8dp"
+        fab:fab_addButtonColorNormal="@color/colorPrimaryDark"
+        fab:fab_addButtonColorPressed="@color/colorPrimaryDark"
+        fab:fab_addButtonPlusIconColor="@color/white"
+        fab:fab_labelStyle="@style/menu_labels_style"
+        fab:fab_labelsPosition="right"
+        >
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myApplications"
+            fab:fab_colorNormal="@color/grey"
+            fab:fab_colorPressed="@color/grey"
+            fab:fab_icon="@drawable/ic_android_white_24dp"
+            fab:fab_title="@string/ourApplications"
+            fab:fab_size="mini"
+            />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="rating"
+            fab:fab_colorNormal="@color/grey"
+            fab:fab_colorPressed="@color/grey"
+            fab:fab_icon="@drawable/ic_star_white_24dp"
+            fab:fab_title="@string/rating"
+            fab:fab_size="mini"
+            />
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="share"
+            fab:fab_colorNormal="@color/grey"
+            fab:fab_colorPressed="@color/grey"
+            fab:fab_icon="@drawable/ic_share_white_24dp"
+            fab:fab_title="@string/share"
+            fab:fab_size="mini"
+            />
+
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    <FrameLayout
+        android:id="@+id/toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimaryDark"
+            fab:titleTextColor="@color/white"
+            fab:titleTextAppearance="?android:attr/textAppearanceLarge"
+            />
+
+        <com.miguelcatalan.materialsearchview.MaterialSearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search"
+            />
+
+    </FrameLayout>
+</RelativeLayout>
